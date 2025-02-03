@@ -1,4 +1,4 @@
-/*import pg from "pg"
+import pg from "pg"
 import env from "dotenv"
 
 env.config();
@@ -18,9 +18,9 @@ db.on('error', (err) => {
   });
 
 export const query = (text, params) => db.query(text, params);
-*/
 
-import pg from "pg";
+
+/*import pg from "pg";
 import dotenv from "dotenv";
 
 dotenv.config();
@@ -40,3 +40,4 @@ db.on('error', (err) => {
 });
 
 export const query = (text, params) => db.query(text, params);
+*/
